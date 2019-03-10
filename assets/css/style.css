@@ -1,0 +1,79 @@
+nav {
+    margin-bottom: 20px;
+}
+body {
+    color: #777777;
+    font-family: 'Georgia',Times,'Times New Roman', serif;
+    font-size: .80em;
+}
+/* not sure if I did the fon-sizing correctly.  Could not get my paragraphs to sit flush with my picture*/
+p {
+    line-height: 2 !important;
+    font-size: 16px; 
+}
+h1 {
+    color: #4aaaa5;
+    font-size: 24px;
+}
+h3 {
+    margin: 0;
+    padding-bottom: 15px;
+
+}
+.navbar-brand {
+    font-size: 32px; 
+    background-color: #4aaaa5; 
+    color: white !important; 
+    padding: 15px 20px 20px 20px;
+}
+.container {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+#button1, #button2, #button3, #button4, #button5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    height: auto;
+    width: 87.7%
+}
+#button1, #button2, #button3, #button4, #button5 {
+    top: 65%;
+    left: 6.4%;
+}
+.portimg {
+    position: relative;
+    height: auto; 
+    width: 100%;
+    }
+}
+/* Medium devices (desktop layout) */
+/* cant get buttons to align properly*/
+/* cant get my name in the header to align properly*/
+@media only screen and (max-width: 980px) {
+    .portimg {
+        height: auto; 
+        width: 100%;
+        } 
+    .navbar-brand, .ml-n3 {
+    margin-left: 0 !important;
+    }
+.navbar-toggler {
+    margin-right: 0px;
+}
+
+/* Small devices (tablets)*/
+@media screen and (max-width: 768px) { 
+}
+    /* Extra small devices (portrait phones) */
+@media only screen and (max-width: 640px) { 
+    nav {
+        position: static;
+    }
+}
+}
